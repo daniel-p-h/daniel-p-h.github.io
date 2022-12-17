@@ -1,0 +1,22 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+.site-header {
+    border-top: 2px solid #2a9fd6;
+    border-bottom: 2px solid #2a9fd6;
+    min-height: 55.95px;
+    line-height: 54px;
+    position: relative;
+}
+
+.footer-col-wrapper div:nth-child(2) {
+    font-style: italic !important;
+}
+
+a {
+    color: #2a9fd6 !important;
+}
