@@ -1,0 +1,12 @@
+Ubuntu's latest interim release, interestingly labeled ["Kinetic Kudu"](https://ubuntu.com/blog/canonical-releases-ubuntu-22-10-kinetic-kudu), has arrived in the tail end of 2022. With a claimed focus on improving the experience of "enterprise developers and IT administrators" and bringing with it "the latest toolchains and applications with a particular focus on the IoT ecosystem". Exciting. 
+
+Sadly one thing that is still missing is the ability to configure scroll speed:
+![3fbd63a89fe323542cdd8060f3a0c955.png](/assets/images/3fbd63a89fe323542cdd8060f3a0c955.png)
+
+As frustrating as this has been for at least the past [3 years](https://gitlab.gnome.org/GNOME/gnome-control-center/-/issues/379), there has fortunately always been a [workaround...](https://fostips.com/mouse-wheel-touchpad-scroll-speed-ubuntu/) Until now.
+
+Users of 22.10 will be sad to discover at the time of writing the well known imwheel workaround no longer applies due to the transition from Xorg to Wayland. The only solace to be had is that application specific overrides and configuration do apply. 
+
+Personally the only I've bothered to apply has been to firefox as that is where I do my scrolling. [This can be performed by accessing your about:config via the url bar and modifying the settings shown in the image below](https://askubuntu.com/questions/1432154/unable-to-set-scrolling-speed-of-touchpad-ubuntu-22-10-wayland):
+![f3c839b6d82a12e7d8fb2f0448b1475e.png](/assets/images/f3c839b6d82a12e7d8fb2f0448b1475e.png)
+
